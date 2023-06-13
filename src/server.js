@@ -5,6 +5,7 @@ import fs from 'fs'
 import path from 'path'
 import cors from 'cors'
 import { Routes } from './routes'
+require('./models/index');
 
 const porta = process.env.API_PORT;
 const app = Express();
