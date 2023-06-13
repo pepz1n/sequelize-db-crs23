@@ -1,3 +1,5 @@
-export function Routes(app) {
+import categoriaRoute from "./categoriaRoute";
 
+export function Routes(app) {
+  categoriaRoute(app);
 }
